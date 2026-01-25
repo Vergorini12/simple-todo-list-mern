@@ -1,5 +1,5 @@
 {
-  "name": "mern-todo-client",
+  "name": "simple-todo-list-mern-client",
   "version": "1.0.0",
   "description": "Frontend for MERN Todo App",
   "dependencies": {

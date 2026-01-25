@@ -37,7 +37,8 @@ app.get('/api/tasks', async (req, res) => {
 // POST create a new task - Add new task to database
 app.post('/api/tasks', async (req, res) => {
   const task = new Task({
-    title: req.body.title
+    title: req.body.title,
+    completed: false
   });
 
   try {
@@ -45,6 +46,22 @@ app.post('/api/tasks', async (req, res) => {
     res.status(201).json(newTask);
   } catch (err) {
     res.status(400).json({ message: err.message });
+  }
+});
+
+// PATCH toggle task completion status
+app.patch('/api/tasks/:id', async (req, res) => {
+  try {
+    const task = await Task.findById(req.params.id);
+    if (!task) {
+      return res.status(404).json({ message: 'Task not found' });
+    }
+    
+    task.completed = !task.completed; // Toggle completion status
+    const updatedTask = await task.save();
+    res.json(updatedTask);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
   }
 });
 

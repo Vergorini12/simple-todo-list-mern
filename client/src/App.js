@@ -61,6 +61,20 @@ function App() {
     }
   };
 
+  // Toggle task completion status
+  const handleToggleComplete = async (id) => {
+    try {
+      const response = await axios.patch(`${API_URL}/${id}`);
+      // Update the task in the state with new completion status
+      setTasks(tasks.map(task => 
+        task._id === id ? response.data : task
+      ));
+    } catch (error) {
+      console.error('Error toggling task:', error);
+      alert('Failed to update task');
+    }
+  };
+
   return (
     <div className="app">
       <div className="container">
@@ -93,7 +107,17 @@ function App() {
           ) : (
             tasks.map(task => (
               <div key={task._id} className="task-item">
-                <span className="task-title">{task.title}</span>
+                <div className="task-content">
+                  <input
+                    type="checkbox"
+                    checked={task.completed}
+                    onChange={() => handleToggleComplete(task._id)}
+                    className="task-checkbox"
+                  />
+                  <span className={`task-title ${task.completed ? 'completed' : ''}`}>
+                    {task.title}
+                  </span>
+                </div>
                 <button
                   onClick={() => handleDeleteTask(task._id)}
                   className="delete-button"
@@ -107,7 +131,7 @@ function App() {
         </div>
 
         <footer className="footer">
-          <p>{tasks.length} {tasks.length === 1 ? 'task' : 'tasks'} total</p>
+          <p>{tasks.length} {tasks.length === 1 ? 'task' : 'tasks'} total • {tasks.filter(t => t.completed).length} completed</p>
         </footer>
       </div>
     </div>
