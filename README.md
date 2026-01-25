@@ -124,4 +124,4 @@ This is why MERN apps are typically deployed with the Express server serving bot
 
 ## License
 
-MIT
+This project is open source and available under the MIT License.
